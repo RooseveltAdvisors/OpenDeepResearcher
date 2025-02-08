@@ -1,0 +1,11 @@
+name: jon-open-deep-researcher
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - setuptools
+  - python-dotenv
+  - pip:
+    - -r requirements.txt 
